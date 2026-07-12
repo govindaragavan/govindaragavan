@@ -2,7 +2,7 @@
   Hello Everyone
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h2>
-Hi👋! myself PRATHAM SETH, 🎓Junior at IIT (BHU) VARANASI, currently flourishing skills in all things code :D.
+Hi👋! myself GOVIND, 🎓Junior at IIT (BHU) VARANASI, currently flourishing skills in all things code :D.
 Let's connect and build something amazing together!
 <br>
 <h1></h1>
