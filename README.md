@@ -76,7 +76,7 @@
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=govindaragavan&show_icons=true&hide_border=true&bg_color=0D0221&title_color=C77DFF&icon_color=C77DFF&text_color=E0D6F5&ring_color=6A0DAD" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=govindaragavan&hide_border=true&background=0D0221&stroke=6A0DAD&ring=C77DFF&fire=C77DFF&currStreakLabel=C77DFF&sideLabels=E0D6F5&currStreakNum=E0D6F5&sideNums=E0D6F5&dates=8A7CA8" />
+<img height="165" src="https://streak-stats.demolab.com/?user=govindaragavan&hide_border=true&background=0D0221&stroke=6A0DAD&ring=C77DFF&fire=C77DFF&currStreakLabel=C77DFF&sideLabels=E0D6F5&currStreakNum=E0D6F5&sideNums=E0D6F5&dates=8A7CA8" />
 
 <br/>
 
