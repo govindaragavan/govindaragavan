@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="344" viewBox="0 0 840 344" role="img" aria-labelledby="card-title">
+  <title id="card-title">{{ARIA}}</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090b14"/>
+      <stop offset="1" stop-color="#14112e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="{{NEON_FROM}}"/>
+      <stop offset="1" stop-color="{{NEON_TO}}"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="{{NEON_TO}}" stop-opacity=".22"/>
+      <stop offset="1" stop-color="{{NEON_TO}}" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowText" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .user { font-size: 15px; font-weight: 700; }
+    .lbl  { font-size: 11px; font-weight: 700; letter-spacing: 2.2px; fill: #8a91bd; }
+    .num  { font-size: 46px; font-weight: 800; }
+    .unit { font-size: 14px; font-weight: 600; fill: #8a91bd; }
+    .sub  { font-size: 11px; fill: #666d99; }
+    .mon  { font-size: 10px; fill: #666d99; }
+    .leg  { font-size: 10px; fill: #6b7299; }
+
+    /* grid cell colours (streak cells get their neon colour from the script) */
+    .e  { fill: #161a35; }
+    .a1 { fill: #2b3070; }
+    .a2 { fill: #3b45ad; }
+    .a3 { fill: #4f60e6; }
+    .a4 { fill: #7d8dff; }
+
+    @keyframes pulse { 0%, 100% { opacity: .78; } 50% { opacity: 1; } }
+    .s { animation: pulse 3.2s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .s { animation: none; } }
+  </style>
+
+  <!-- card -->
+  <rect x=".5" y=".5" width="839" height="343" rx="16" fill="url(#bg)" stroke="#262a55"/>
+  <rect x="36" y="0" width="90" height="2" rx="1" fill="url(#neon)"/>
+
+  <!-- header -->
+  <rect x="36" y="27" width="10" height="10" rx="2.5" fill="url(#neon)"/>
+  <text class="user" x="54" y="37" fill="#e9ecff">@{{USERNAME}}</text>
+  <text class="sub" x="804" y="37" text-anchor="end">as of {{AS_OF}}</text>
+
+  <!-- stats -->
+  <ellipse cx="420" cy="116" rx="150" ry="62" fill="url(#halo)"/>
+  <line x1="280" y1="76" x2="280" y2="168" stroke="#23274d"/>
+  <line x1="560" y1="76" x2="560" y2="168" stroke="#23274d"/>
+
+  <g text-anchor="middle">
+    <text class="lbl" x="140" y="88">TOTAL CONTRIBUTIONS</text>
+    <text class="num" x="140" y="138" fill="#eef0ff">{{TOTAL}}</text>
+    <text class="sub" x="140" y="160">{{TOTAL_SUB}}</text>
+
+    <text class="lbl" x="420" y="88">CURRENT STREAK</text>
+    <text class="num" x="420" y="138" fill="url(#neon)" filter="url(#glowText)">{{CURRENT_STREAK}}<tspan class="unit" dx="8">{{CURRENT_UNIT}}</tspan></text>
+    <text class="sub" x="420" y="160">{{CURRENT_SUB}}</text>
+
+    <text class="lbl" x="700" y="88">LONGEST STREAK</text>
+    <text class="num" x="700" y="138" fill="#eef0ff">{{LONGEST_STREAK}}<tspan class="unit" dx="8">{{LONGEST_UNIT}}</tspan></text>
+    <text class="sub" x="700" y="160">{{LONGEST_SUB}}</text>
+  </g>
+
+  <!-- contribution grid: 53 weeks x 7 days, injected by the script.
+       Keep this origin in sync with GRID in scripts/generate-streak.mjs (cell 11, gap 3 => 739px wide). -->
+  <g transform="translate(50,204)">
+{{GRID}}
+  </g>
+
+  <!-- legend -->
+  <rect x="50" y="314" width="10" height="10" rx="2.5" fill="url(#neon)"/>
+  <text class="leg" x="66" y="323">Current streak</text>
+  <rect class="a3" x="166" y="314" width="10" height="10" rx="2.5"/>
+  <text class="leg" x="182" y="323">Active day</text>
+  <rect class="e" x="256" y="314" width="10" height="10" rx="2.5"/>
+  <text class="leg" x="272" y="323">No contributions</text>
+</svg>
