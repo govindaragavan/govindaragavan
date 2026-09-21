@@ -1,0 +1,9 @@
+// 7x7 heart. Comment lines start with // or ;
+// On:  1 # X x █ ● ■ *      Off: 0 . space (anything else)
+0110110
+1111111
+1111111
+1111111
+0111110
+0011100
+0001000

@@ -1,0 +1,7 @@
+// 6 rows tall: gets vertically centred in the 7-row calendar (layout.valign)
+001001
+011110
+110011
+101101
+111111
+001100
