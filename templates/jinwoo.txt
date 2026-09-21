@@ -1,0 +1,8 @@
+// Sung Jin-Woo: shadow dagger inside a square frame (7x7)
+1111111
+1001001
+1001001
+1001001
+1011101
+1001001
+1111111
