@@ -16,7 +16,6 @@
 <text x="12" y="76">Mon</text>
 <text x="12" y="104">Wed</text>
 <text x="12" y="132">Fri</text>
-<rect class="l0 h" x="42.5" y="66.5" width="10" height="10" rx="2"/>
 <rect class="l0 h" x="42.5" y="80.5" width="10" height="10" rx="2"/>
 <rect class="l0 h" x="42.5" y="94.5" width="10" height="10" rx="2"/>
 <rect class="l0 h" x="42.5" y="108.5" width="10" height="10" rx="2"/>
@@ -381,6 +380,7 @@
 <rect class="l2" x="756" y="136" width="11" height="11" rx="2"/>
 <rect class="l0 o" x="770" y="52" width="11" height="11" rx="2"/>
 <rect class="l0 o" x="770" y="66" width="11" height="11" rx="2"/>
+<rect class="l0 o" x="770" y="80" width="11" height="11" rx="2"/>
 <text x="674" y="172" text-anchor="end">Less</text>
 <rect class="l0" x="680" y="162" width="11" height="11" rx="2"/>
 <rect class="l1" x="694" y="162" width="11" height="11" rx="2"/>
