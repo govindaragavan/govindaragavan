@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="344" viewBox="0 0 840 344" role="img" aria-labelledby="card-title">
-  <title id="card-title">govindaragavan: 7-day current streak, 26-day longest streak, 608 total contributions</title>
+  <title id="card-title">govindaragavan: 0-day current streak, 26-day longest streak, 608 total contributions</title>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -53,7 +53,7 @@
   <!-- header -->
   <rect x="36" y="27" width="10" height="10" rx="2.5" fill="url(#neon)"/>
   <text class="user" x="54" y="37" fill="#e9ecff">@govindaragavan</text>
-  <text class="sub" x="804" y="37" text-anchor="end">as of Sep 23, 2026</text>
+  <text class="sub" x="804" y="37" text-anchor="end">as of Sep 24, 2026</text>
 
   <!-- stats -->
   <ellipse cx="420" cy="116" rx="150" ry="62" fill="url(#halo)"/>
@@ -66,8 +66,8 @@
     <text class="sub" x="140" y="160">2025 – Present</text>
 
     <text class="lbl" x="420" y="88">CURRENT STREAK</text>
-    <text class="num" x="420" y="138" fill="url(#neon)" filter="url(#glowText)">7<tspan class="unit" dx="8">days</tspan></text>
-    <text class="sub" x="420" y="160">Sep 16 – Sep 22, 2026</text>
+    <text class="num" x="420" y="138" fill="url(#neon)" filter="url(#glowText)">0<tspan class="unit" dx="8">days</tspan></text>
+    <text class="sub" x="420" y="160">No active streak</text>
 
     <text class="lbl" x="700" y="88">LONGEST STREAK</text>
     <text class="num" x="700" y="138" fill="#eef0ff">26<tspan class="unit" dx="8">days</tspan></text>
@@ -449,15 +449,16 @@
     <rect x="714" y="0" width="11" height="11" rx="2.5" class="a4"/>
     <rect x="714" y="14" width="11" height="11" rx="2.5" class="a4"/>
     <rect x="714" y="28" width="11" height="11" rx="2.5" class="e"/>
+    <rect x="714" y="42" width="11" height="11" rx="2.5" class="a2"/>
+    <rect x="714" y="56" width="11" height="11" rx="2.5" class="a4"/>
+    <rect x="714" y="70" width="11" height="11" rx="2.5" class="a4"/>
+    <rect x="714" y="84" width="11" height="11" rx="2.5" class="a2"/>
+    <rect x="728" y="0" width="11" height="11" rx="2.5" class="a4"/>
+    <rect x="728" y="14" width="11" height="11" rx="2.5" class="a3"/>
+    <rect x="728" y="28" width="11" height="11" rx="2.5" class="a1"/>
     <rect x="728" y="42" width="11" height="11" rx="2.5" class="e"/>
+    <rect x="728" y="56" width="11" height="11" rx="2.5" class="e"/>
     <g filter="url(#glow)">
-    <rect x="714" y="42" width="11" height="11" rx="2.5" class="s" fill="#00f0ff" style="animation-delay:-2.41s"/>
-    <rect x="714" y="56" width="11" height="11" rx="2.5" class="s" fill="#2bcff8" style="animation-delay:-2.41s"/>
-    <rect x="714" y="70" width="11" height="11" rx="2.5" class="s" fill="#55aef1" style="animation-delay:-2.41s"/>
-    <rect x="714" y="84" width="11" height="11" rx="2.5" class="s" fill="#808eeb" style="animation-delay:-2.41s"/>
-    <rect x="728" y="0" width="11" height="11" rx="2.5" class="s" fill="#aa6de4" style="animation-delay:-2.52s"/>
-    <rect x="728" y="14" width="11" height="11" rx="2.5" class="s" fill="#d54cdd" style="animation-delay:-2.52s"/>
-    <rect x="728" y="28" width="11" height="11" rx="2.5" class="s" fill="#ff2bd6" style="animation-delay:-2.52s"/>
     </g>
   </g>
 
